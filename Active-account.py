@@ -84,6 +84,3 @@ class Dashboard(Resource):
 api.add_resource(DbManager,'/signup')
 api.add_resource(Login,'/login')
 api.add_resource(Dashboard, '/Dashboard')
-
-if __name__ == '__main__':
-	app.run()
